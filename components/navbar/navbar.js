@@ -12,18 +12,21 @@ const NavBarIcons = (props) => {
 const NavBar = () => {
     let me = <NavBarIcons path={mdiDeveloperBoard} size={2} color={"#333"}/>
     return (<div className={styles.navbar}>
-        <div className={styles.name}>
-            <Link href={'/'}>
-                <a>
+
+        <Link href={'/'}>
+            <a>
+                <div className={styles.name}>
                     {me}
-                    👨🏻‍💻 Sergio Quintana
-                </a>
-            </Link>
-        </div>
+                    <a>
+                        👨🏻‍💻 Sergio Quintana
+                    </a>
+                </div>
+            </a>
+        </Link>
         <div className={styles.name}>
             <Link href={'/'}>
                 <a>
-                    📩 Contacto
+                    📩 Contact
                 </a>
             </Link>
         </div>

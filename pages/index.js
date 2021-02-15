@@ -10,6 +10,7 @@ export default function Home() {
             <title>Sergio Quintana</title>
             <link rel="icon" href="/icons/developer.svg"/>
             <link href="https://fonts.googleapis.com/css2?family=Truculenta:wght@500&display=swap" rel="stylesheet"/>
+            <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,600&display=swap" rel="stylesheet"/>
         </Head>
             <NavBar/>
             <Footer/>

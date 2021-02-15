@@ -4,16 +4,20 @@
     display: grid;
     grid-template-columns: 2fr repeat(2, 1fr);
     padding: 1.5rem;
-    background-color: green;
+    background-color: #264653;
+    color: #2a9d8f;
     /*border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;*/
-    box-shadow: 5px 5px 1em yellowgreen;
+    box-shadow: 5px 5px 0.4em #2a9d8f;
     align-self: center;
     justify-items: center;
-    font-family: 'Truculenta', sans-serif;
-    font-size: 17px;
+    /*font-family: 'Truculenta', sans-serif;*/
+    font-family: 'Raleway', sans-serif;
+    font-size: 19px;
 }
 .name{
+    align-items: center;
+    display: flex;
     padding: 0.5rem;
 }
 
