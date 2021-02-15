@@ -5,7 +5,7 @@
     grid-template-columns: 2fr repeat(2, 1fr);
     padding: 1.5rem;
     background-color: #264653;
-    color: #2a9d8f;
+    color: white;
     /*border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;*/
     box-shadow: 5px 5px 0.4em #2a9d8f;
@@ -22,8 +22,7 @@
 }
 
 .name:hover{
-    background-color:fuchsia;
+    background-color:#2a9d8f;
     border-radius: 10px;
-    color: yellow;
-    box-shadow: inset 0px 0px 0.5rem blue;
+    /*box-shadow: inset 0px 0px 0.5rem #e76f51;*/
 }
