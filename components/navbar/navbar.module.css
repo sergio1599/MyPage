@@ -1,28 +1,41 @@
 .navbar{
     top: 0;
     width: 100%;
-    display: grid;
-    grid-template-columns: 2fr repeat(2, 1fr);
     padding: 1.5rem;
     background-color: #264653;
-    color: white;
-    /*border-bottom-left-radius: 1rem;
-    border-bottom-right-radius: 1rem;*/
     box-shadow: 5px 5px 0.4em #2a9d8f;
-    align-self: center;
-    justify-items: center;
-    /*font-family: 'Truculenta', sans-serif;*/
-    font-family: 'Raleway', sans-serif;
-    font-size: 19px;
-}
-.name{
-    align-items: center;
-    display: flex;
-    padding: 0.5rem;
+
 }
 
-.name:hover{
-    background-color:#2a9d8f;
-    border-radius: 10px;
-    /*box-shadow: inset 0px 0px 0.5rem #e76f51;*/
+.rate {
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 0 .8rem;
+}
+
+.elements{
+    display: grid;
+    grid-template-columns: 2fr repeat(2, auto);
+}
+
+.name,
+.contact,
+.projects{
+    font-family: 'Raleway', sans-serif;
+    padding: 0.6rem;
+    border-radius: 0.3rem;
+    font-size: 20px;
+    color: #ffffff;
+    transition: background-color 0.5s;
+}
+
+.name:hover,
+.contact:hover,
+.projects:hover{
+    background-color: #2a9d8f;
+
+}
+
+.name{
+    justify-self: start;
 }

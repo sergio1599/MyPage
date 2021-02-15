@@ -10,37 +10,26 @@ const NavBarIcons = (props) => {
     />);
 }
 const NavBar = () => {
-    let me = <NavBarIcons path={mdiDeveloperBoard} size={2} color={"#333"}/>
-    return (<div className={styles.navbar}>
-
-        <Link href={'/'}>
-            <a>
-                <div className={styles.name}>
-                    {me}
-                    <a>
-                        👨🏻‍💻 Sergio Quintana
-                    </a>
+    /*let me = <NavBarIcons path={mdiDeveloperBoard} size={2} color={"#333"}/>*/
+    return (
+        <>
+            <div className={styles.navbar}>
+                <div className={styles.rate}>
+                    <div className={styles.elements}>
+                        <div className={styles.name}>
+                            <Link href={"/"}><a>👨🏻‍💻 Sergio Quintana</a></Link>
+                        </div>
+                        <div className={styles.contact}>
+                            <Link href={"/"}><a>📩 Contact</a></Link>
+                        </div>
+                        <div className={styles.projects}>
+                            <Link href={"/"}><a>💻 Projects</a></Link>
+                        </div>
+                    </div>
                 </div>
-            </a>
-        </Link>
-        <div className={styles.name}>
-            <Link href={'/'}>
-                <a>
-                    📩 Contact
-                </a>
-            </Link>
-        </div>
-
-        <div className={styles.name}>
-            <Link href={'/'}>
-                <a>
-                    💻 Projects
-                </a>
-            </Link>
-        </div>
-
-
-    </div>);
+            </div>
+        </>
+    );
 }
 
 export default NavBar;
