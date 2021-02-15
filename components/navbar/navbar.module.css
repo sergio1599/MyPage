@@ -1,0 +1,25 @@
+.navbar{
+    top: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr repeat(2, 1fr);
+    padding: 1.5rem;
+    background-color: green;
+    /*border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;*/
+    box-shadow: 5px 5px 1em yellowgreen;
+    align-self: center;
+    justify-items: center;
+    font-family: 'Truculenta', sans-serif;
+    font-size: 17px;
+}
+.name{
+    padding: 0.5rem;
+}
+
+.name:hover{
+    background-color:fuchsia;
+    border-radius: 10px;
+    color: yellow;
+    box-shadow: inset 0px 0px 0.5rem blue;
+}
