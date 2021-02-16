@@ -8,13 +8,18 @@ import TypeWriter from 'react-typewriter';
 const Info = ({}) => {
     return (<div className={styles.rate}>
         <div className={styles.info}>
-            <p></p>
-            <TypeWriter typing={0.5}>HOLA MUNDO
-            </TypeWriter>
-            <img className={styles.picture} src={"/images/profile_picture(2).jpg"}/>
-        </div>
+            <div>
+                <TypeWriter typing={0.5}><h2>HELLO WORLD</h2></TypeWriter>
+            </div>
 
-    </div>);
+            <div>
+                <p>I'm Sergio Quintana </p>
+                <img className={styles.picture} src={"/images/profile_picture(2).jpg"}/>
+            </div>
+
+        </div>
+    </div>)
+        ;
 };
 
 
