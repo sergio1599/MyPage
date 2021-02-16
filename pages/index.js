@@ -9,7 +9,7 @@ export default function Home() {
     return (<>
         <Head>
             <title>Sergio Quintana</title>
-            <link rel="icon" href="/icons/developer.svg"/>
+            <link rel="icon" href="/icons/logo.png"/>
             <link href="https://fonts.googleapis.com/css2?family=Truculenta:wght@500&display=swap" rel="stylesheet"/>
             <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,600&display=swap" rel="stylesheet"/>
             <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400&display=swap" rel="stylesheet"/>
