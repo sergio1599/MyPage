@@ -1,7 +1,7 @@
 .navbar {
     top: 0;
     width: 100%;
-    padding: 1.5rem;
+    padding: 0.8rem;
     background-color: #264653;
     box-shadow: 5px 5px 0.4em #2a9d8f;
 }
@@ -23,7 +23,7 @@
     font-family: 'Raleway', sans-serif;
     padding: 0.6rem;
     border-radius: 0.3rem;
-    font-size: 22px;
+    font-size: 20px;
     color: #ffffff;
     transition: background-color 0.5s;
 }
@@ -45,5 +45,9 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+
+    }
+    .contact, .projects{
+        display: none;
     }
 }
