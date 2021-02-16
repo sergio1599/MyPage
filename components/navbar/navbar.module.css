@@ -1,4 +1,4 @@
-.navbar{
+.navbar {
     top: 0;
     width: 100%;
     padding: 1.5rem;
@@ -13,14 +13,14 @@
     padding: 0 .8rem;
 }
 
-.elements{
+.elements {
     display: grid;
     grid-template-columns: 2fr repeat(2, auto);
 }
 
 .name,
 .contact,
-.projects{
+.projects {
     font-family: 'Raleway', sans-serif;
     padding: 0.6rem;
     border-radius: 0.3rem;
@@ -31,11 +31,20 @@
 
 .name:hover,
 .contact:hover,
-.projects:hover{
+.projects:hover {
     background-color: #2a9d8f;
 
 }
 
-.name{
+.name {
     justify-self: start;
+}
+
+@media screen and (max-width: 960px) {
+    .elements {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
