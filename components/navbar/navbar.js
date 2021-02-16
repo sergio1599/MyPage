@@ -17,7 +17,7 @@ const NavBar = () => {
                 <div className={styles.rate}>
                     <div className={styles.elements}>
                         <div className={styles.name}>
-                            <Link href={"/"}><a>👨🏻‍💻 Sergio Quintana</a></Link>
+                            <Link href={"/"}><a>Sergio Quintana</a></Link>
                         </div>
                         <div className={styles.contact}>
                             <Link href={"/"}><a>📩 Contact</a></Link>
