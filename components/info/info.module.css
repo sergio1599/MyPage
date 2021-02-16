@@ -36,9 +36,11 @@
     border-radius: 1rem;
     box-shadow: 1px 1px 1em #98afa8;
     object-fit: cover;
-
+    transition: transform 2s;
 }
-
+.picture:hover{
+    transform: scale(1.1);
+}
 
 
 
