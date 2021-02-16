@@ -12,3 +12,9 @@
     max-width: 960px;
     padding: 0 .8rem;
 }
+
+@media screen and (max-width: 960px){
+    .info{
+        grid-template-columns: auto 3fr auto;
+    }
+}
