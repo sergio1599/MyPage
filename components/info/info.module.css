@@ -1,10 +1,13 @@
 .info{
-    font-family: 'Quicksand', sans-serif;
+    /*font-family: 'Quicksand', sans-serif;*/
+    font-family: 'Raleway', sans-serif;
     display: grid;
     grid-template-columns:  1fr 3fr 1fr;
+    grid-template-rows: 1fr 1fr;
     margin-top: 30px;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 20px;
+    background: #F7F7F7;
 }
 
 .rate {
@@ -13,8 +16,21 @@
     padding: 0 .8rem;
 }
 
+.picture{
+    margin-top: 2rem;
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 1em #98afa8;
+}
+
+
+
 @media screen and (max-width: 960px){
     .info{
-        grid-template-columns: auto 3fr auto;
+        grid-template-columns: auto 3fr 1fr;
     }
 }
+

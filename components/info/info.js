@@ -9,10 +9,9 @@ const Info = ({}) => {
     return (<div className={styles.rate}>
         <div className={styles.info}>
             <p></p>
-            <TypeWriter typing={1}>Soy Sergio Alejandro Quintana vargas, tengo 21 años, actualmente soy estudiante de Ingeniería de Sistemas Y Computación
-                en la Universidad Pedagógica y Tecnológica De Colombia (UPTC), vivo en Duitama, Boyacá - Colombia.
+            <TypeWriter typing={0.5}>HOLA MUNDO
             </TypeWriter>
-            <p></p>
+            <img className={styles.picture} src={"/images/profile_picture(2).jpg"}/>
         </div>
 
     </div>);
