@@ -1,0 +1,8 @@
+<div className={styles.dot}>
+                            <label>
+                                <input type={'checkbox'} id={'check'}></input>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </label>
+                        </div>

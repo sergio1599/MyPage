@@ -11,9 +11,9 @@ const NavBarIcons = (props) => {
 }
 const NavBar = () => {
     /*let me = <NavBarIcons path={mdiDeveloperBoard} size={2} color={"#333"}/>*/
-    return (
-        <>
+    return (<>
             <div className={styles.navbar}>
+
                 <div className={styles.rate}>
                     <div className={styles.elements}>
                         <div className={styles.name}>
