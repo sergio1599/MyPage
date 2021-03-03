@@ -1,11 +1,24 @@
 import styles from './info.module.css';
 import Icon from '@mdi/react';
-import {mdiFacebookGaming, mdiGithub} from "@mdi/js";
+import {mdiLanguageCpp, mdiLanguageJava, mdiLanguageJavascript, mdiBash, mdiReact, mdiGit} from "@mdi/js";
 import React from 'react';
 import TypeWriter from 'react-typewriter';
 
+const InfoCards = (props) => {
+    return (<Icon path={props.path}
+                  size={props.size}
+                  color={props.color}
+    />);
+}
 
 const Info = ({}) => {
+    let java = <InfoCards path={mdiLanguageJava} size={2} color={"#000000"}/>
+    let javascript = <InfoCards path={mdiLanguageJavascript} size={2} color={"#000000"}/>
+    let cpp = <InfoCards path={mdiLanguageCpp} size={2} color={"#000000"}/>
+    let bash= <InfoCards path={mdiBash} size={2} color={"#000000"}/>
+    let react= <InfoCards path={mdiReact} size={2} color={"#000000"}/>
+    let git= <InfoCards path={mdiGit} size={2} color={"#000000"}/>
+
     return (<div className={styles.rate}>
         <div className={styles.info}>
             <div>
@@ -27,6 +40,21 @@ const Info = ({}) => {
                 <img className={styles.picture} src={"/images/profile_picture(2).jpg"}/>
             </div>
 
+        </div>
+        <div className={styles.skills}>
+            <div></div>
+            <div>
+                <h1 className={styles.font_title}>SKILLS  🚀</h1>
+                <div className={styles.skills_elements}>
+                    {java}
+                    {javascript}
+                    {cpp}
+                    {bash}
+                    {react}
+                    {git}
+                </div>
+
+            </div>
         </div>
     </div>)
         ;
