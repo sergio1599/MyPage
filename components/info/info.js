@@ -24,7 +24,7 @@ const Info = ({}) => {
     let java = <InfoCards path={mdiLanguageJava} size={2} color={"#DE0000"}/>
     let javascript = <InfoCards path={mdiLanguageJavascript} size={2} color={"#F7DF1D"}/>
     let cpp = <InfoCards path={mdiLanguageCpp} size={2} color={"#649AD2"}/>
-    let hmtl5= <InfoCards path={mdiLanguageHtml5} size={2} color={"#E54D26"}/>
+    let html= <InfoCards path={mdiLanguageHtml5} size={2} color={"#E54D26"}/>
     let react= <InfoCards path={mdiReact} size={2} color={"#00D8FF"}/>
     let git= <InfoCards path={mdiGit} size={2} color={"#F05033"}/>
     let css= <InfoCards path={mdiLanguageCss3} size={2} color={"#264EE4"}/>
@@ -52,29 +52,28 @@ const Info = ({}) => {
 
         </div>
         <div className={styles.skills}>
-            <div></div>
             <div>
                 <h1 className={styles.font_title}>SKILLS  🚀</h1>
                 <div className={styles.skills_elements}>
-                    <div>
+                    <div className={styles.java}>
                         {java}
                     </div>
-                    <div>
+                    <div className={styles.javascript}>
                         {javascript}
                     </div>
-                    <div>
+                    <div className={styles.cpp}>
                         {cpp}
                     </div>
-                    <div>
-                        {hmtl5}
+                    <div className={styles.html}>
+                        {html}
                     </div>
-                    <div>
+                    <div className={styles.react}>
                         {react}
                     </div>
-                    <div>
+                    <div className={styles.git}>
                         {git}
                     </div>
-                    <div>
+                    <div className={styles.css}>
                         {css}
                     </div>
                 </div>
