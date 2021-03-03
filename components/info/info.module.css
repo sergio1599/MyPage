@@ -67,6 +67,42 @@
     box-shadow: 1px -1px 10px #264EE4;
 }
 
+.java:hover{
+    box-shadow: 1px -1px 10px #DE0000;
+    transition: box-shadow 1s;
+    border-radius: 8px;
+}
+.javascript:hover{
+    box-shadow: 1px -1px 10px #F7DF1D;
+    transition: box-shadow 1s;
+    border-radius: 8px;
+}
+.cpp:hover{
+    box-shadow: 1px -1px 10px #649AD2;
+    transition: box-shadow 1s;
+    border-radius: 8px;
+}
+.html:hover{
+    box-shadow: 1px -1px 10px #E54D26;
+    transition: box-shadow 1s;
+    border-radius: 8px;
+}
+.react:hover{
+    box-shadow: 1px -1px 10px #00D8FF;
+    transition: box-shadow 1s;
+    border-radius: 8px;
+}
+.git:hover{
+    box-shadow: 1px -1px 10px #F05033;
+    transition: box-shadow 1s;
+    border-radius: 8px;
+}
+.css:hover{
+    box-shadow: 1px -1px 10px #264EE4;
+    transition: box-shadow 1s;
+    border-radius: 8px;
+}
+
 .rate {
     margin: 0 auto;
     max-width: 960px;
