@@ -2,18 +2,20 @@
     /*font-family: 'Quicksand', sans-serif;*/
     font-family: 'Raleway', sans-serif;
     display: grid;
-    grid-template-columns:  1fr 1fr 1fr;
+    grid-template-columns:  1fr 1fr;
     grid-auto-rows: auto;
-    margin: 30px;
+    margin-top: 30px;
+    margin-left: 250px;
+    margin-right: 250px;
     font-weight: bold;
     font-size: 22px;
     justify-items: center;
-    grid-gap: 1rem;
+    grid-gap: 0rem;
 }
 
 
 @media screen and (max-width: 960px){
     .info{
-        grid-template-columns:  3fr 1fr;
+        grid-template-columns:  1fr 1fr;
     }
 }

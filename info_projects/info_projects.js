@@ -9,6 +9,8 @@ import {
     mdiLanguageCss3, mdiLanguageHtml5
 } from "@mdi/js";
 import React from 'react';
+import Cards from "../components/cards/cards";
+
 
 
 
@@ -16,10 +18,10 @@ const InfoProjects = ({}) => {
     return (<>
         <div className={styles.info_projects}>
             <div>
-                <p>work in progress 🔨</p>
+                <Cards/>
             </div>
             <div>
-                <p>work in progress 🔨</p>
+                <Cards/>
             </div>
             <div>
                 <p>work in progress 🔨</p>
