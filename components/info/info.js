@@ -4,10 +4,8 @@ import {
     mdiLanguageCpp,
     mdiLanguageJava,
     mdiLanguageJavascript,
-    mdiBash,
     mdiReact,
     mdiGit,
-    mdiPageNext,
     mdiLanguageCss3, mdiLanguageHtml5
 } from "@mdi/js";
 import React from 'react';
@@ -32,7 +30,7 @@ const Info = ({}) => {
     return (<div className={styles.rate}>
         <div className={styles.info}>
             <div>
-                <TypeWriter typing={0.5}><h1>HELLO WORLD</h1></TypeWriter>
+                <TypeWriter className={styles.font_title} typing={0.5}><h1>HELLO WORLD</h1></TypeWriter>
                 <h1 className={styles.font_title}>ABOUT ME</h1>
                 <p className={styles.font_paragraph}>I'm currently studying Computer Science at the
                     <a href={"http://www.uptc.edu.co/"}> UPTC </a>, I actually living in <a
