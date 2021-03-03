@@ -1,6 +1,15 @@
 import styles from './info.module.css';
 import Icon from '@mdi/react';
-import {mdiLanguageCpp, mdiLanguageJava, mdiLanguageJavascript, mdiBash, mdiReact, mdiGit} from "@mdi/js";
+import {
+    mdiLanguageCpp,
+    mdiLanguageJava,
+    mdiLanguageJavascript,
+    mdiBash,
+    mdiReact,
+    mdiGit,
+    mdiPageNext,
+    mdiLanguageCss3, mdiLanguageHtml5
+} from "@mdi/js";
 import React from 'react';
 import TypeWriter from 'react-typewriter';
 
@@ -12,12 +21,13 @@ const InfoCards = (props) => {
 }
 
 const Info = ({}) => {
-    let java = <InfoCards path={mdiLanguageJava} size={2} color={"#000000"}/>
-    let javascript = <InfoCards path={mdiLanguageJavascript} size={2} color={"#000000"}/>
-    let cpp = <InfoCards path={mdiLanguageCpp} size={2} color={"#000000"}/>
-    let bash= <InfoCards path={mdiBash} size={2} color={"#000000"}/>
-    let react= <InfoCards path={mdiReact} size={2} color={"#000000"}/>
-    let git= <InfoCards path={mdiGit} size={2} color={"#000000"}/>
+    let java = <InfoCards path={mdiLanguageJava} size={2} color={"#DE0000"}/>
+    let javascript = <InfoCards path={mdiLanguageJavascript} size={2} color={"#F7DF1D"}/>
+    let cpp = <InfoCards path={mdiLanguageCpp} size={2} color={"#649AD2"}/>
+    let hmtl5= <InfoCards path={mdiLanguageHtml5} size={2} color={"#E54D26"}/>
+    let react= <InfoCards path={mdiReact} size={2} color={"#00D8FF"}/>
+    let git= <InfoCards path={mdiGit} size={2} color={"#F05033"}/>
+    let css= <InfoCards path={mdiLanguageCss3} size={2} color={"#264EE4"}/>
 
     return (<div className={styles.rate}>
         <div className={styles.info}>
@@ -46,12 +56,27 @@ const Info = ({}) => {
             <div>
                 <h1 className={styles.font_title}>SKILLS  🚀</h1>
                 <div className={styles.skills_elements}>
-                    {java}
-                    {javascript}
-                    {cpp}
-                    {bash}
-                    {react}
-                    {git}
+                    <div>
+                        {java}
+                    </div>
+                    <div>
+                        {javascript}
+                    </div>
+                    <div>
+                        {cpp}
+                    </div>
+                    <div>
+                        {hmtl5}
+                    </div>
+                    <div>
+                        {react}
+                    </div>
+                    <div>
+                        {git}
+                    </div>
+                    <div>
+                        {css}
+                    </div>
                 </div>
 
             </div>

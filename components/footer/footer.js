@@ -17,6 +17,7 @@ const Footer = ({}) => {
     let linkedin = <FooterCards path={mdiLinkedin} size={2} color={"#ffff"}/>
     let twitter = <FooterCards path={mdiTwitter} size={2} color={"#ffff"}/>
 
+
     return (<div className={styles.footer}>
         <footer>
             <div className={styles.rate}>

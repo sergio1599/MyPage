@@ -27,7 +27,10 @@
 }
 
 .skills_elements{
-    grid-template-columns: 0.01fr 0.01fr 0.01fr 0.01fr 0.01fr;
+    display: grid;
+    grid-gap: 0.7rem;
+    grid-template-columns: 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr;
+    justify-content: center;
 }
 
 .rate {
@@ -43,6 +46,7 @@
 .font_title{
     font-size: 25px;
     font-family: 'Raleway', sans-serif;
+    text-align: center;
 }
 .font_paragraph{
     font-family: 'Quicksand', sans-serif;
