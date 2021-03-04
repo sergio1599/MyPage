@@ -4,19 +4,12 @@ import Footer from '../components/footer/footer';
 import React from "react";
 import NavBar from "../components/navbar/navbar";
 import Info from '../components/info/info';
+import Layout from "../components/layout/layout";
 
 export default function Home() {
     return (<>
-        <Head>
-            <title>Sergio Quintana</title>
-            <link rel="icon" href="/icons/logo.png"/>
-            <link href="https://fonts.googleapis.com/css2?family=Truculenta:wght@500&display=swap" rel="stylesheet"/>
-            <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,600&display=swap" rel="stylesheet"/>
-            <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400&display=swap" rel="stylesheet"/>
-        </Head>
-            <NavBar/>
+        <Layout title={'Sergio Quintana'}>
             <Info/>
-            <Footer/>
-
+        </Layout>
     </>)
 }
