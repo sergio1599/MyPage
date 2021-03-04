@@ -15,30 +15,29 @@ const useStyles = makeStyles({
     },
 });
 
-export default function ImgMediaCard() {
+const Cards = (props) =>{
     const classes = useStyles();
-
-    return (
+    return(
         <Card className={classes.root}>
             <CardActionArea>
                 <CardMedia
                     component="img"
-                    alt="Word Search and CrossWord"
+                    alt={props.alt}
                     height="140"
-                    image="/images/word_search_and_crossword.png"
-                    title="Word Search and CrossWord"
+                    image={props.image}
+                    title={props.title}
                 />
                 <CardContent>
                     <Typography gutterBottom variant="h5" component="h2">
-                        Word Search and CrossWord
+                        {props.textTitle}
                     </Typography>
                     <Typography variant="body2" color="textSecondary" component="p">
-                        This was a project made for a subject called TGS in which it has two interfaces, one for
-                        wordsearch, and the other for crossword.
-
+                        {props.paragraph}
                     </Typography>
                 </CardContent>
             </CardActionArea>
         </Card>
     );
 }
+
+export default Cards;
