@@ -53,25 +53,25 @@ const Info = ({}) => {
             <div>
                 <h1 className={styles.font_title}>SKILLS  🚀</h1>
                 <div className={styles.skills_elements}>
-                    <div className={styles.java}>
+                    <div title={'Java'} className={styles.java}>
                         {java}
                     </div>
-                    <div className={styles.javascript}>
+                    <div title={'JavaScript'} className={styles.javascript}>
                         {javascript}
                     </div>
-                    <div className={styles.cpp}>
+                    <div title={'C++'} className={styles.cpp}>
                         {cpp}
                     </div>
-                    <div className={styles.html}>
+                    <div title={'HTML'} className={styles.html}>
                         {html}
                     </div>
-                    <div className={styles.react}>
+                    <div title={'React'} className={styles.react}>
                         {react}
                     </div>
-                    <div className={styles.git}>
+                    <div title={'Git'} className={styles.git}>
                         {git}
                     </div>
-                    <div className={styles.css}>
+                    <div title={'CSS'} className={styles.css}>
                         {css}
                     </div>
                 </div>
